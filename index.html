@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
+    <style>
+        .resolution {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
     <!-- HERO SECTION START -->
     <section id="home" class="pt-36">
         <div class="container">
@@ -32,5 +44,21 @@
         </div>
     </section>
     <!-- HERO SECTION END -->
+
+     <div class="resolution" id="resolution">
+        Screen Resolution: 0 x 0
+    </div>
+
+    <script>
+        function updateResolution() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            document.getElementById('resolution').textContent = `Screen Resolution: ${width} x ${height}`;
+        }
+
+        // Update resolution on page load and when window is resized
+        window.addEventListener('load', updateResolution);
+        window.addEventListener('resize', updateResolution);
+    </script>
 </body>
 </html>
