@@ -7,6 +7,9 @@ module.exports = {
         'primary': '#14b8a6',
         'dark': '#0f172a',
       },
+      screens: {
+        'mobile': '320px',
+      },
     },
   },
   plugins: [],
