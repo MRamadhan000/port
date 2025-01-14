@@ -558,21 +558,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 300px) {
-  .container {
-    max-width: 300px;
-  }
-}
-
 @media (min-width: 375px) {
   .container {
     max-width: 375px;
-  }
-}
-
-@media (min-width: 425px) {
-  .container {
-    max-width: 425px;
   }
 }
 
@@ -810,32 +798,41 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 300px) {
-  .mobileS\:h-\[230px\] {
+@media (min-width: 375px) {
+  .mobile-M\:h-\[230px\] {
     height: 230px;
   }
 
-  .mobileS\:w-\[230px\] {
+  .mobile-M\:h-\[250px\] {
+    height: 250px;
+  }
+
+  .mobile-M\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .mobile-M\:h-\[310px\] {
+    height: 310px;
+  }
+
+  .mobile-M\:w-\[\] {
+    width: ;
+  }
+
+  .mobile-M\:w-\[230px\] {
     width: 230px;
   }
 
-  .mobileS\:bg-green-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
+  .mobile-M\:w-\[250px\] {
+    width: 250px;
   }
-}
 
-@media (min-width: 375px) {
-  .mobileM\:bg-yellow-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
+  .mobile-M\:w-\[300px\] {
+    width: 300px;
   }
-}
 
-@media (min-width: 425px) {
-  .mobileL\:bg-purple-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(107 33 168 / var(--tw-bg-opacity, 1));
+  .mobile-M\:w-\[310px\] {
+    width: 310px;
   }
 }
 

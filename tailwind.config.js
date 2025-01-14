@@ -8,9 +8,7 @@ module.exports = {
         'dark': '#0f172a',
       },
       screens: {
-        'mobileS': '300px',
-        'mobileM': '375px',
-        'mobileL': '425px',
+        'mobile-M': '375px',
       },
     },
   },
